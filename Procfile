@@ -1,0 +1,1 @@
+web: gunicorn manittoproject.wsgi --log-file -
