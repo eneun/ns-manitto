@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1 class="neonText mt-5">
+    나의 마니또는?
+</h1>
+
+{% if user.is_authenticated %}
+    {% if manitto %}
+        <div class="manitto-result">
+            당신의 마니또는...<br/><br/>
+            <div class="manitto-name">
+                {{manitto.user2}}</h1>
+            </div>
+        </div>
+    {% else %}
+    <div class='btn-container'>
+        <a href="{% url 'result' %}" class='login-btn'>결과 보기</a>
+    </div>
+    {% endif %}
+{% else %}
+    <div class='btn-container'>
+        <a href="{% url 'signin' %}" class='login-btn'>로그인</a>
+    </div>
+    
+{% endif %}
+
+{% endblock %}

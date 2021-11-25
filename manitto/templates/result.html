@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+
+   <h1 class="neonText mt-5">
+        마니또 결과 공개!
+    </h1>
+    <div class="manitto-result py-5">
+        {% for friend in friends %}
+            {{friend.user1}}의 마니또는 {{friend.user2}} <br/>
+        {% endfor %}
+            
+    </div>
+
+
+{% endblock %}
