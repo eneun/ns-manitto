@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'KyoboHand';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url("bg.d0728e1cd9ed.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.neonText {
+    margin: 9rem 0;
+    color: #fff;
+
+    text-align: center;
+    font-size: 3rem;
+
+    text-shadow:
+        0 0 7px #fff,
+        /* 0 0 10px #fff,
+        0 0 21px #fff, */
+        0 0 42px rgb(47, 7, 63),
+        0 0 82px rgb(47, 7, 63),
+        0 0 92px rgb(47, 7, 63),
+        0 0 102px rgb(47, 7, 63),
+        0 0 151px rgb(47, 7, 63);
+      font-family: 'KyoboHand';
+}
+
+.btn-container {
+    margin: auto;
+    text-align: center;
+}
+.login-btn {
+    color: #ffffff;
+    background-color: #100e2dd9;
+    border-color: #100e2dd9;
+    text-decoration: none;
+    font-weight: lighter;
+    padding: 1.5rem 5rem;
+    border-radius: 10px;
+}
+
+.manitto-result {
+    background-color: rgb(255, 255, 255, 0.5);
+    padding-top: 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: rgb(27, 24, 27);
+}
+
+.manitto-name {
+    color: #fff;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 4rem;
+
+    text-shadow:
+        0 0 7px rgb(92, 83, 102),
+        /* 0 0 10px #fff,
+        0 0 21px #fff, */
+        0 0 42px rgb(15, 7, 63),
+        0 0 82px rgb(15, 7, 63),
+        0 0 92px rgb(15, 7, 63),
+        0 0 102px rgb(15, 7, 63),
+        0 0 151px rgb(15, 7, 63);
+      font-family: 'KyoboHand';
+}
